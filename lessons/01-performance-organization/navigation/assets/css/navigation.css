@@ -27,10 +27,11 @@ summary {
 
 html {
   color: #555;
-  font: 16px/20px "Proxima Nova", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 14px/20px "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  text-shadow: 0 1px 0 #fff;
 }
 body {
-  background: #eee;
+  background: #fafbfc;
   margin: 0;
 }
 
@@ -82,7 +83,7 @@ h6,
 /* Colors */
 
 h1, h2, h3, h4 {
-  color: #29abe2;
+  color: #404853;
 }
 h5, h6 {
   color: #333;
@@ -205,7 +206,7 @@ figure {
   float: left;
 }
 .nav a {
-  color: #08c;
+  color: #8ec63f;
   display: block;
   margin-right: 2px;
   padding: 8px 12px;
@@ -217,6 +218,7 @@ figure {
 }
 .nav .active a {
   cursor: default;
+  text-shadow: none;
 }
 
 /* Tabs
@@ -258,8 +260,8 @@ figure {
           border-radius: 5px;
 }
 .nav-pills .active a {
-  background-color: #08c;
-  color: #fff
+  background-color: #404853;
+  color: #fff;
 }
 
 /* Stacked

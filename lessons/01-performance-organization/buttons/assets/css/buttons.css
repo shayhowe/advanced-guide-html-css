@@ -27,10 +27,11 @@ summary {
 
 html {
   color: #555;
-  font: 16px/20px "Proxima Nova", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 14px/20px "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  text-shadow: 0 1px 0 #fff;
 }
 body {
-  background: #eee;
+  background: #fafbfc;
   margin: 0;
 }
 
@@ -82,7 +83,7 @@ h6,
 /* Colors */
 
 h1, h2, h3, h4 {
-  color: #29abe2;
+  color: #404853;
 }
 h5, h6 {
   color: #333;
@@ -202,7 +203,7 @@ figure {
   color: #fff;
   cursor: pointer;
   display: inline-block;
-  font: 14px/20px "Proxima Nova", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 14px/20px "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   margin: 0;
   padding: 4px 12px;
   text-align: center;
