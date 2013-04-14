@@ -1,12 +1,12 @@
 #questions {
-  max-width: 700px;
   margin-bottom: 6em;
+  max-width: 700px;
 }
 
 article {
-  border-top: 1px solid #eee;
-  padding: 2em 1em;
   margin: 0;
+  padding: 2em 1em;
+  border-top: 1px solid #eee;
 }
 
 article:target {

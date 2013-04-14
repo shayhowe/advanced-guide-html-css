@@ -62,8 +62,8 @@ strong em, em strong {
 
 .group:before,
 .group:after {
-    content: "";
     display: table;
+    content: "";
 }
 .group:after {
     clear: both;
@@ -105,28 +105,36 @@ section, article {
 }
 
 nav {
+  margin: -2.5em -2.5em 2.5em;
   background: #4a4a4a;
   text-align: center;
-  margin: -2.5em -2.5em 2.5em;
 }
 
 nav a,
 nav a:visited {
   display: inline-block;
-  color: #fff;
   padding: 1em;
+  color: #fff;
   font-size: 1.4em;
 }
 
+nav a:hover {
+  color: #5dabf4;
+}
+
+nav a:active {
+  color: #ccc;
+}
+
 .main {
-  width: 70%;
   float: left;
+  width: 70%;
 }
 
 .sidebar {
-  width: 25%;
-  padding-left: 5%;
   float: right;
+  padding-left: 5%;
+  width: 25%;
 }
 
 /* Typography */
@@ -148,12 +156,12 @@ h2 {
 
 h3,
 h4 {
-  font-family: 'Helvetica Neue', Helmet, Freesans, sans-serif;
-  font-weight: 700;
+  margin: 2em 0 0.5em;
   color: #999;
   text-transform: uppercase;
+  font-weight: 700;
   font-size: 1.5em;
-  margin: 2em 0 0.5em;
+  font-family: 'Helvetica Neue', Helmet, Freesans, sans-serif;
 }
 
 h4 {
@@ -171,19 +179,19 @@ p, li {
 }
 
 sup {
-  font-size: 0.5em;
-  line-height: 1;
   position: relative;
   top: -5px;
+  font-size: 0.5em;
+  line-height: 1;
 }
 
 blockquote {
-  font-size: 2em;
+  margin: 1em 0;
+  padding: 1em;
   background: #eee;
   text-align: center;
-  padding: 1em;
   font-style: italic;
-  margin: 1em 0;
+  font-size: 2em;
 }
 
 a,
@@ -230,18 +238,14 @@ label {
 
 input {
   padding: 5px 20px 5px 5px;
-  width: 400px;
   max-width: 90%;
+  width: 400px;
   border: 1px solid #ccc;
   -webkit-border-radius: 5px;
      -moz-border-radius: 5px;
-      -ms-border-radius: 5px;
-       -o-border-radius: 5px;
           border-radius: 5px;
   -webkit-box-shadow: inset 0 2px 2px #eee;
      -moz-box-shadow: inset 0 2px 2px #eee;
-      -ms-box-shadow: inset 0 2px 2px #eee;
-       -o-box-shadow: inset 0 2px 2px #eee;
           box-shadow: inset 0 2px 2px #eee;
   font-size: 1.4em;
   font-family: 'Helvetica Neue', Helmet, Freesans, sans-serif;
@@ -254,14 +258,10 @@ input[type='submit'] {
   border: none;
   -webkit-border-radius: 1em;
      -moz-border-radius: 1em;
-      -ms-border-radius: 1em;
-       -o-border-radius: 1em;
           border-radius: 1em;
   background: #1c7ed9;
   -webkit-box-shadow: none;
      -moz-box-shadow: none;
-      -ms-box-shadow: none;
-       -o-box-shadow: none;
           box-shadow: none;
   color: #fff;
   text-transform: uppercase;
