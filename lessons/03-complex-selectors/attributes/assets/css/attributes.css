@@ -2,6 +2,8 @@
   margin-bottom: 2em;
 }
 
+/* General Links */
+
 a[href^='https:']:after {
   content: url(../img/reward-lock.png);
   padding-left: 4px;
@@ -12,6 +14,8 @@ a[target] {
   background: transparent url(../img/sprite.png) no-repeat;
   background-position: right -149px;
 }
+
+/* Resource Links */
 
 .resources a {
   padding-left: 20px;
@@ -34,6 +38,8 @@ a[target] {
 .resources a[href*='wikipedia'] {
   background-position: left -79px;
 }
+
+/* Forms */
 
 input[name*='name'] {
   background: transparent url(../img/sprite.png) no-repeat;

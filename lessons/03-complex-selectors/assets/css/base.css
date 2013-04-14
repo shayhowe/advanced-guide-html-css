@@ -60,6 +60,18 @@ strong em, em strong {
   font-style: italic;
 }
 
+.group:before,
+.group:after {
+    content: "";
+    display: table;
+}
+.group:after {
+    clear: both;
+}
+.group {
+    zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+}
+
 /* Base */
 
 body {
@@ -88,6 +100,23 @@ img {
   border: 1px solid #eee;
 }
 
+section, article {
+  margin: 1em 0;
+}
+
+nav {
+  background: #4a4a4a;
+  text-align: center;
+  margin: -2.5em -2.5em 2.5em;
+}
+
+nav a {
+  display: inline-block;
+  color: #fff;
+  padding: 1em;
+  font-size: 1.4em;
+}
+
 /* Typography */
 
 h1, h2 {
@@ -113,6 +142,13 @@ ol {
 p, li {
   margin-bottom: 0.5em;
   font-size: 1.4em;
+}
+
+sup {
+  font-size: 0.5em;
+  line-height: 1;
+  position: relative;
+  top: -5px;
 }
 
 a,
