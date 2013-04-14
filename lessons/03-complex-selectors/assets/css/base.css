@@ -110,7 +110,8 @@ nav {
   margin: -2.5em -2.5em 2.5em;
 }
 
-nav a {
+nav a,
+nav a:visited {
   display: inline-block;
   color: #fff;
   padding: 1em;
