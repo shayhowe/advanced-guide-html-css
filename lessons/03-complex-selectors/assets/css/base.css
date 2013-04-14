@@ -117,6 +117,17 @@ nav a {
   font-size: 1.4em;
 }
 
+.main {
+  width: 70%;
+  float: left;
+}
+
+.sidebar {
+  width: 25%;
+  padding-left: 5%;
+  float: right;
+}
+
 /* Typography */
 
 h1, h2 {
@@ -134,6 +145,20 @@ h2 {
   font-size: 2.0em;
 }
 
+h3,
+h4 {
+  font-family: 'Helvetica Neue', Helmet, Freesans, sans-serif;
+  font-weight: 700;
+  color: #999;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  margin: 2em 0 0.5em;
+}
+
+h4 {
+  color: #4a4a4a;
+}
+
 ol {
   margin: 0 0 0 2em;
   list-style-type: decimal;
@@ -149,6 +174,15 @@ sup {
   line-height: 1;
   position: relative;
   top: -5px;
+}
+
+blockquote {
+  font-size: 2em;
+  background: #eee;
+  text-align: center;
+  padding: 1em;
+  font-style: italic;
+  margin: 1em 0;
 }
 
 a,
@@ -196,6 +230,7 @@ label {
 input {
   padding: 5px 20px 5px 5px;
   width: 400px;
+  max-width: 90%;
   border: 1px solid #ccc;
   -webkit-border-radius: 5px;
      -moz-border-radius: 5px;

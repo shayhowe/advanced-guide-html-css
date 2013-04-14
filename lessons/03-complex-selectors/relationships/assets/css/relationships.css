@@ -1,0 +1,58 @@
+/* Sibling and Child Selectors */
+
+h2 + h3 {
+  margin-top: 0;
+}
+
+blockquote > p {
+  font-size: 1em;
+  margin: 0.25em 0
+}
+
+header + p {
+  font-size: 1.7em;
+  margin-bottom: 1em;
+}
+
+/* Other Page Styles */
+
+article {
+  border-top: 1px solid #eee;
+  padding: 2em 0;
+  margin: 0;
+}
+
+aside section {
+  margin-bottom: 3em;
+  border-top: 1px solid #eee;
+}
+
+aside section:first-child {
+  border-top: 0;
+}
+
+.social li {
+  display: inline-block;
+  margin-right: 0.25em;
+}
+
+.social li a {
+  display: block;
+  width: 16px;
+  height: 16px;
+  background: transparent url(../img/sprite.png) no-repeat;
+  overflow: hidden;
+  text-indent: -9999px;
+}
+
+.social a[href*='twitter'] {
+  background-position: left -20px;
+}
+
+.social a[href*='facebook'] {
+  background-position: left -40px;
+}
+
+.social a[href*='youtube'] {
+  background-position: left -60px;
+}
