@@ -1,0 +1,123 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	font: inherit;
+	font-size: 100%;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+
+/* Base */
+
+body {
+  background: #f5f5f5;
+  font-family: 'Noticia Text', Georgia, sans-serif;
+  font-size: 62.5%; /* Resets 1em to 10px */
+  line-height: 1.4;
+  color: #4a4a4a;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -ms-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+.wrap {
+  padding: 2.5em;
+  margin: 0 auto;
+  max-width: 1000px;
+  width: 95%;
+  background: #fff;
+}
+
+/* Typography */
+
+h1, h2 {
+  font-family: 'Oswald', 'Helvetica Neue', Helmet, Freesans, sans-serif;
+  font-weight: 700;
+  margin-bottom: 0.5em;
+}
+
+h1 {
+  font-size: 2.4em;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 2.0em;
+}
+
+p, li {
+  font-size: 1.4em;
+  margin-bottom: 0.5em;
+}
+
+a,
+a:visited {
+  color: #1c7ed9;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #5dabf4;
+}
+
+a:active {
+  color: #0c5396;
+}
+
+/* Utilities */
+
+.right {
+  float: right;
+  margin: 0 0 2em 2em;
+}
+
+.left {
+  float: left;
+  margin: 0 2em 2em 0;
+}
+
+.right, left {
+  display: inline;
+}
