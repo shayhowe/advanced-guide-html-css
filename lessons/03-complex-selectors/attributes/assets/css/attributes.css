@@ -1,0 +1,46 @@
+.resources, article {
+  margin-bottom: 2em;
+}
+
+a[href^='https:']:after {
+  content: url(../img/reward-lock.png);
+  padding-left: 4px;
+}
+
+a[target] {
+  padding-right: 15px;
+  background: transparent url(../img/sprite.png) no-repeat;
+  background-position: right -149px;
+}
+
+.resources a {
+  padding-left: 20px;
+  background: transparent url(../img/sprite.png) no-repeat;
+  background-position: left 1px;
+}
+
+.resources a[href*='twitter'] {
+  background-position: left -19px;
+}
+
+.resources a[href*='facebook'] {
+  background-position: left -39px;
+}
+
+.resources a[href*='youtube'] {
+  background-position: left -59px;
+}
+
+.resources a[href*='wikipedia'] {
+  background-position: left -79px;
+}
+
+input[name*='name'] {
+  background: transparent url(../img/sprite.png) no-repeat;
+  background-position: 99% -123px;
+}
+
+input[type='email'] {
+  background: transparent url(../img/sprite.png) no-repeat;
+  background-position: 99% -99px;
+}
