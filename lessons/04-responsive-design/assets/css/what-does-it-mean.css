@@ -1,0 +1,63 @@
+html {
+  height: 100%;
+}
+
+body {
+  padding: 50px;
+  background-color: gray;
+  font-size: 62.5%;
+}
+
+h1 {
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 4em;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+@media (min-width: 400px) {
+  body {
+    background-color: red;
+    background-image: url('../img/rainbowguy.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+
+@media (min-width: 600px) {
+  body {
+    background-color: orange;
+  }
+  h1 {
+    font-size: 5em;
+  }
+}
+
+@media (min-width: 800px) {
+  body {
+    background-color: yellow;
+  }
+}
+
+@media (min-width: 1000px) {
+  body {
+    background-color: green;
+  }
+  h1 {
+    font-size: 7em;
+  }
+}
+
+@media (min-width: 1200px) {
+  body {
+    background-color: blue;
+  }
+}
+
+@media (min-width: 1400px) {
+  body {
+    background-color: purple;
+  }
+}

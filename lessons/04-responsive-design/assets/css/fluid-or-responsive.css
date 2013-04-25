@@ -1,0 +1,144 @@
+/* Base Styles */
+
+body {
+  background: #eee;
+  color: #444;
+  font-size: 62.5%;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  line-height: 1.2;
+}
+
+.container {
+  margin: 50px auto;
+  max-width: 1000px;
+  width: 90%;
+  background: #fff;
+}
+
+.question {
+  position: relative;
+  padding: 20px;
+}
+
+h1 {
+  margin: 0 0 0.75em;
+  text-align: center;
+  font-weight: bold;
+  font-size: 3.2em;
+}
+
+p {
+  margin-bottom: 0.5em;
+  font-size: 1.8em;
+  font-family: 'Hoefler Text', Cambria, Georgia, 'Times New Roman', serif;
+  line-height: 1.5;
+}
+
+.kitties {
+  margin-bottom: 1em;
+}
+
+.kitties:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.kitties li {
+  display: inline;
+  float: left;
+}
+
+/* Second Question Styles */
+
+#second {
+  margin: 0 auto;
+  width: 300px;
+}
+
+.look.kitties li {
+  margin: 1.25%;
+  width: 47.5%;
+}
+
+/* Third Question Styles */
+
+.more.kitties li {
+  margin: 1.5%;
+  width: 30.333333333333%;
+}
+
+/* Answers */
+
+#first:after {
+  content: 'Fluid';
+}
+
+#second:after {
+  content: 'Responsive';
+}
+
+#third:after {
+  content: 'What is Fluid and Responsive?';
+}
+
+#first:after,
+#second:after,
+#third:after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: none;
+  padding-top: 50px;
+  background: rgba(0,0,0,0.75);
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 4em;
+}
+
+#first:hover:after,
+#second:hover:after,
+#third:hover:after {
+  display: block;
+}
+
+/* Media Queries */
+
+@media (min-width: 600px) {
+  #second {
+    width: 450px;
+  }
+  .look.kitties li {
+    margin: 1.5%;
+    width: 30.333333333333%;
+  }
+  .more.kitties li {
+    margin: .75%;
+    width: 18.5%;
+  }
+}
+
+@media (min-width: 900px) {
+  #second {
+    width: 780px;
+  }
+  .look.kitties li {
+    margin: 1.25%;
+    width: 22.5%;
+  }
+  #first:after,
+  #second:after,
+  #third:after {
+    font-size: 6em;
+  }
+}
+
+@media (max-width: 750px) {
+  #third {
+    font-size: 0.75em;
+  }
+}

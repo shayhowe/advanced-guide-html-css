@@ -1,0 +1,51 @@
+/* Base Styles */
+
+body {
+  background: #eee;
+  color: #444;
+  font-size: 62.5%;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  line-height: 1.2;
+}
+
+.container {
+  margin: 50px auto;
+  width: 1000px;
+  background: #fff;
+}
+
+section {
+  position: relative;
+  padding: 20px;
+}
+
+h1 {
+  margin: 0 0 0.75em;
+  text-align: center;
+  font-weight: bold;
+  font-size: 3.2em;
+}
+
+p {
+  margin-bottom: 0.5em;
+  font-size: 1.8em;
+  font-family: 'Hoefler Text', Cambria, Georgia, 'Times New Roman', serif;
+  line-height: 1.5;
+}
+
+.kitties {
+  margin-bottom: 1em;
+}
+
+.kitties:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.kitties li {
+  display: inline;
+  float: left;
+  margin: 10px;
+  width: 220px;
+}
